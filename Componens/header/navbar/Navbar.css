@@ -1,0 +1,353 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Yekan;
+}
+
+@font-face {
+  font-family: Yekan;
+  src: url("./font/yekan-regular.eot") format("eot"),
+    url("./font/yekan-regular.ttf") format("truetype"),
+    url("./font/yekan-regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.allstyle {
+  direction: rtl;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  z-index: 40;
+position: fixed;
+top: 0;
+right: 0;
+background-color: white;
+ width: 100%;
+
+}
+.nav ::shadow{
+    box-shadow: 10px;
+}
+.nav img {
+  height: 20px;
+  margin: 13px 20px;
+}
+.photo {
+  overflow: hidden;
+  height: 500px;
+  object-fit: cover;
+ margin: 30px opx;
+}
+
+.nav svg {
+  height: 40px;
+  margin: 5px 20px;
+}
+.relative {
+  position: relative;
+}
+.header img {
+  overflow: hidden;
+  height: 500px;
+  object-fit: cover;
+  position: relative;
+}
+.databorder {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  height: auto;
+  width: 290px;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  background-color: #00113d90;
+  margin-bottom:20px ;
+  border-radius: 20px;
+  gap: 10px;
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  transform: translate(50%, -50%)
+}
+.databorder img {
+  display: flex;
+  height: 20px;
+  align-items: center;
+  justify-content: center;
+  padding-left: 80px;
+}
+.databorderablue {
+  display: flex;
+  box-sizing: border-box;
+  border-color: white;
+  width: auto;
+  font-size: 14px;
+  text-align: center;
+  background-color: white;
+  height: 50px;
+  width: 230px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 0px;
+  opacity: 1;
+  font-weight: 500;
+}
+.databorderablue p {
+  margin: auto;
+}
+.databorderadark {
+  display: flex;
+  box-sizing: border-box;
+  border-color: rgb(255, 255, 255);
+  width: auto;
+  font-size: 14px;
+  text-align: center;
+  border-style: solid;
+  border: 3px solid #ffffff;
+  height: 50px;
+  width: 230px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 0px;
+  opacity: 1;
+  color: aliceblue;
+  font-weight: 500;
+}
+.databorderadark p {
+  margin:  auto;
+}
+.databorder svg {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  padding-left: 30px;
+}
+.databorder h1 {
+    font-size: 28px;
+  color: white;
+  padding-left: 190px;
+  margin-top: -1px;
+  margin-bottom: 30px;
+  margin-right:10px ;
+}
+.p1 {
+    margin-left: 35px;
+    margin-top: -40px;
+  font-size: 18px;
+  color: white;
+}
+.srevestopsi{
+    display: flex;
+    overflow-x: auto;
+}
+.srevestopsi img{
+    width: 100px;
+    height: auto;
+    margin: 10px 10px -15px 10px;
+}
+.srevestopsi div{
+    text-align: center;
+}
+.srevestopsi p{
+    font-size: 18px;
+    font-weight: 300;
+    color: #707070;
+
+}
+.srevestopsi2{
+    margin: 30px 0px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 30px;
+}
+.textheader{
+  margin: 30px 0px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0px 20px;
+    margin-bottom: -10px;
+}
+.textbody{
+    font-size: 18px;
+    font-weight: 300;
+    padding: 0px 20px;
+    color: #707070;
+    border: 2px gray;
+    margin-bottom: 100px;
+}
+.infordiv{
+
+    display: flex;
+    flex-direction:column ;
+    margin: 30px 0px;
+    padding: 0px 20px;
+    justify-content: center;
+    align-items: center;
+}
+.infordiv img{
+    display: flex;
+    width: 370px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto 20px auto;
+}
+.infordiv button{
+    display: block;
+    width: 220px;
+    height: 55px;
+    border-radius: 16px;
+    background-color: rgb(255, 94, 0);
+    border-style: none;
+    color: white;
+    margin: 30px -5px;
+    font-weight: bold;
+    font-size: 20;
+}
+.infordiv a{
+    color:  rgb(255, 94, 0);
+}
+.infordiv h2{
+  margin: 30px 0px;
+}
+.background{
+  display: flex;
+   background-image:url(./svg/parallax.jpg);
+   background-attachment: fixed;
+   width: 100%;
+   flex-direction: column;
+   background-size: cover;
+  }
+.background a{
+  display: block;
+  font-size: 18px;
+  color: white;
+  justify-content: center;
+  text-align: center;
+  margin: 20px 0px;
+
+}
+/* .datatopsi{
+  display: flex ;
+  flex-direction: column;
+  align-items: center;
+} */
+.datatopsi img{
+  display: block;
+
+  border-radius: 15px;
+  margin-right: 20px;
+  margin-top: 80px;
+
+}
+.datatopsi h2{
+  font-size: 22px;
+  margin:20px 20px;
+
+}
+.datatopsi H3{
+  font-size: 16px;
+  color: #707070;
+  margin:30px 20px;
+
+}
+.datatopsi p{
+  color: #707070;
+  margin-right: 20px;
+}
+.datatopsi a{
+  color: rgb(0, 140, 255);
+}
+.datatopsi button{
+  display: block;
+  width: 220px;
+  height: 50px;
+  background-color: rgb(35, 104, 255);
+  color: white;
+  border-radius: 15px;
+  margin: 20px ;
+  font-weight: 500;
+  border: none;
+  margin: 20px auto 20px auto;
+
+
+}
+.datafoter{
+  display: flex;
+  flex-direction: column;
+}
+.datafoter img{
+  margin: 20px 30px 20px 30px;
+  border-radius: 15px;
+
+}
+.datafoter p{
+  margin: 15px 20px;
+}
+.datafoter h4{
+  color: #c5c5c5d3;
+  margin: 15px 20px;
+}
+.datafoter h2{
+  margin: 80px 20px 20px 0px;
+}
+.footer{
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+.footer a{
+  font-size: 14px;
+  color: white;
+  font-weight: 300;
+  text-decoration: none;
+  margin: 5px 15px;
+
+}
+.footer h2{
+  color: white;
+  margin: 15px 15px;
+}
+.footer h6{
+  font-size: 30px;
+  color: white;
+  margin: 0px 15px;
+}
+.footer img{
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  width: 100px;
+  height: auto;
+  border-color: white 2px;
+  justify-content: space-between;
+}
+.qwerty{
+  display: flex;
+  background-color: black;
+}
+.qwerty img{
+  background-color: white;
+  width: 130px;
+  padding: 20px;
+ margin: 20px auto;
+ border-radius: 15px;
+
+}
+.footer2{
+  display: flex;
+  background-color: black;
+}
+.footer2 a{
+  margin: 30px auto 30px auto;
+}
+.footer3{
+  background-color: black;
+  color: rgb(124, 124, 124);
+  font-size: 16px;
+}
