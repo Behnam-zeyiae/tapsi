@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: Yekan;
+  box-sizing: border-box;
 }
 
 @font-face {
@@ -12,6 +13,10 @@
   font-weight: normal;
   font-style: normal;
 }
+.headerimg{
+  object-fit: cover;
+  height: 680px;
+}
 
 .allstyle {
   direction: rtl;
@@ -21,11 +26,11 @@
   justify-content: space-between;
   flex-direction: row-reverse;
   z-index: 40;
-position: fixed;
-top: 0;
-right: 0;
-background-color: white;
- width: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: white;
+  width: 100%;
 
 }
 .nav ::shadow{
